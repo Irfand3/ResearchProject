@@ -1,0 +1,148 @@
+.body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.main{
+
+	background-image: url('img/cover.jpg');
+	background-size: cover;
+	padding: 200px;
+}
+
+nav{
+	font-family: Nunito;
+	font-weight: 900;
+}
+
+.mainheading{
+
+		font-family: Nunito, serif;
+		font-style:normal 
+		font-weight: 900;
+		font-size: 5em;
+		letter-spacing: 0.05em;
+		line-height: 1.2em;
+}
+
+.subtitle{
+	font-family: Nunito, serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+
+nav a:hover{
+	color: #CCA374 !important;
+	cursor: pointer;
+}
+
+.explorebutton{
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-color: #F3C38B;
+	color: #F3C38B;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+}
+
+.navbarfont{
+	font-family: "Nunito", sans-serif;
+}
+
+.secondPage{
+	font-family: Nunito, serif;
+	background-color: #ffa45b;
+	margin: 0px;
+	padding-bottom: 100px;
+
+}
+
+
+
+.ourGoal{
+	margin-top: 100px;
+	font-size: 3em;
+	border-bottom: 4px solid #FECDAB;
+	padding-bottom: 25px;
+}
+
+.ourGoalFont{
+	
+	margin: auto;
+    
+    font-size: 1.5em;
+
+}
+
+.ourGoalFont2{
+	
+	margin: auto;
+
+    font-size: 1.7em;
+}
+
+.thirdPage{
+	font-family: Nunito, serif;
+	background-color: #ffcdab;
+	padding-bottom: 150px;
+}
+
+.ourTeam{
+	margin-bottom: 30px;
+	font-size: 3em;
+	margin-top: 180px;
+}
+
+.ourTeamP{
+	margin-bottom: 30px;
+	font-size: 1.6em;
+}
+
+.iconbtn{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 50%;
+	background-color: #ffa45b;
+	
+}
+
+.teamBtn{
+
+}
+
+.icons{
+	width: 50%;
+	margin: auto;
+}
+
+.fourthPage{
+
+	
+	font-family: Nunito, serif;
+	background-color: #fff4e3;
+}
+
+.card{
+	font-family: Nunito, serif;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="ourGoalImage"] {
+    width: 50vh;
+    display: block;
+    margin: auto;
+  }
+
+
+
+
+}
+
