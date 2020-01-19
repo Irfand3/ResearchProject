@@ -5,13 +5,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/6005d190be.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="app.js"></script>
+
+
 </head>
 <body>
 
@@ -36,16 +32,16 @@
 			<a class="nav-link text-white h6 ml-3" href="#">Home</a>
 		</li>
 		<li>
-			<a class="nav-link text-white h6 ml-3" href="#">Researches</a>
+			<a class="nav-link text-white h6 ml-3" href="#researches">Researches</a>
 		</li>
 		<li>
-			<a class="nav-link text-white h6 ml-3" href="#">Members</a>
+			<a class="nav-link text-white h6 ml-3" href="team.html">Members</a>
 		</li>
 		<li>
-			<a class="nav-link text-white h6 ml-3" href="#">About</a>
+			<a class="nav-link text-white h6 ml-3" href="#about">About</a>
 		</li>
 		<li>
-			<a class="nav-link text-white h6 ml-3" href="#">Contact</a>
+			<a class="nav-link text-white h6 ml-3" href="#contact">Contact</a>
 		</li>
 	</ul>
 
@@ -55,11 +51,16 @@
 
 
  <div class="text-center" style="margin-top: 100px;">
-  <h1 class="mainheading text-white">OUIuBIH</h1>
-  <p class="text-white subtitle">Bosnia and Herzegovina Operational Research Assosiation</p>
+  <h1 class="mainheading text-white" id="title" style="display: none;">OUIuBIH</h1>
+  <p class="text-white subtitle" id="subtitle" style="display: none;">Bosnia and Herzegovina Operational Research Assosiation</p>
  
-  <button type="button" class="btn btn-outline explorebutton ">Explore!</button>
+  <a href="#secondSlide"><button type="button" class="btn btn-outline explorebutton" id="exploreButton" style="display: none;">Explore!</button></a>
+
   </div>
+
+<div class="text-center">
+<i class="fas fa-angle-down fa-3x" style="color: #F3C38B; position:absolute; bottom: 10px;"></i>
+</div>
 </div>
 
 
@@ -69,7 +70,7 @@
 
 
 
-<div class="secondPage">
+<div class="secondPage" id="secondSlide">
 	<div class="container">
 		
 	
@@ -80,17 +81,14 @@
 	
 
 
-		<div class="col text-center mt-3 ml-5">
+		<div class="col text-center mt-2 ml-4">
 			<h1 class="text-center ourGoal font-weight-bold text-uppercase" style="color:white">Our Goal</h1>
-			<p class="ourGoalFont2 mt-5 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.</p>
+			<p class="ourGoalFont2 mt-5 text-white">Encouraging theoretical and applied researches in the field of operational research and developing the assosiation in the field of operational researches in Bosnia and Herzegovina. Promoting the international connections and gaining the prestige of the Bosnia and Herzegovina scientists</p>
 		
 		
 	
 		<div class="m-auto">
-			<button class="btn btn-outline-light mt-5 pl-5 pr-5 pt-2 pb-2" style="text-transform: uppercase; border-width:2px; border-color: white; color: white; ">Check our Researches</button>
+			<button class="btn btn-outline-light mt-5 pl-5 pr-5 pt-2 pb-2" id="researchButton" style="text-transform: uppercase; border-width:2px; border-color: white; color: white; ">Check our Researches</button>
 		</div>
 
 
@@ -107,10 +105,7 @@
 
 				<div class="col text-center mr-5">
 					<h1 class="ourTeam font-weight-bold text-uppercase text-white">Our Team</h1>
-					<p class="ourTeamP text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. </p>
+					<p class="ourTeamP text-white">Bosnia and Herzegovina Operations Research Assosiations Team is independent, voluntary, public organization which unites the experts in the field of operations research and their applications, actively working for the development of assosiation in the field of operations research in BiH </p>
 					<button class="btn btn-outline-light  teamBtn text-uppercase" style="padding: 10px 35px 10px 35px; ">Check our team</button>
 				</div>
 
@@ -126,7 +121,7 @@
 
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.899771590586!2d18.305733915492873!3d43.81643834987767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758ca0ecd65b11b%3A0x4f23ce3443943b85!2sHrasni%C4%8Dka%20cesta%2015%2C%20Ilid%C5%BEa!5e0!3m2!1sbs!2sba!4v1578950429311!5m2!1sbs!2sba" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-	<div class="fourthPage">
+	<div class="fourthPage" id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 text-center mt-5">
@@ -135,7 +130,7 @@
   					<div class="card-body">
    						 <h5 class="card-title"><i class="fa fa-map-marker fa-2x mb-2" aria-hidden="true" style="color: #ffa45b"></i></h5>
   						  <h6 class="card-title mb-3 mt-3 font-weight-bold h5">Location</h6>
-  						  <p class="card-text">Hrasnicka Cesta 15, Ilidza Sarajevo</p>
+  						  <p class="card-text">Sarajevo, Hrasnička cesta 15.</p>
 						   
  					 </div>
 				</div>
@@ -204,6 +199,10 @@
 
 
 
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6005d190be.js" crossorigin="anonymous"></script>
 </body>
 </html>

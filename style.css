@@ -1,6 +1,10 @@
-.body{
+html{
+	scroll-behavior: smooth;
+}
+body{
 	margin: 0;
 	padding: 0;
+
 }
 
 
@@ -34,10 +38,27 @@ nav{
 	line-height: 1.2em;
 }
 
+#exploreButton:hover{
+	color: white !important;
+	box-shadow: inset 0 0 10px #F3C38B;
+}
+
+#researchButton:hover{
+	background-color: #FFA45B;
+	border: 2px solid #f3c38b;
+	font-weight: bold;
+	box-shadow: inset 0 0 10px #F3C38B;
+
+}
+
+
+
 nav a:hover{
 	color: #CCA374 !important;
 	cursor: pointer;
 }
+
+
 
 .explorebutton{
 	padding-left: 80px;
@@ -106,19 +127,21 @@ nav a:hover{
 .iconbtn{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
 	border-radius: 50%;
 	background-color: #ffa45b;
 	
 }
+
+
 
 .teamBtn{
 
 }
 
 .icons{
-	width: 50%;
+	width: 40%;
 	margin: auto;
 }
 
@@ -131,6 +154,27 @@ nav a:hover{
 
 .card{
 	font-family: Nunito, serif;
+}
+
+.teamBody{
+	background-color: #22313F;
+	padding-top: 70px;
+	
+}
+
+.teamNav{
+	background-color: #03B698;
+}
+
+.box-shadow{
+	border:0px;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+#teamButton:hover{
+	background-color: white;
+	font-weight: bold;
+	box-shadow: inset 0 0 5px #00b698;
 }
 
 @media only screen and (max-width: 768px) {
